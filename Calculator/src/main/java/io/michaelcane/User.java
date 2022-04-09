@@ -48,7 +48,7 @@ public class User {
         try {
             isNumber = parseDouble(getInput());
         } catch (NumberFormatException e) {
-            commands.doTheThing();
+            // commands.doTheThing();
         }
     }
 }
