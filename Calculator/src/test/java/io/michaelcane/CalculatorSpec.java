@@ -215,32 +215,24 @@ public class CalculatorSpec {
         assertEquals("This should evaluate to 1000000000", expectedValue, actualValue, delta);
     }
 
+    @Test
+    public void test$cubePositive() {
+        /**
+         * This method should cube a value (double) provided by the user.
+         */
+        double expectedValue = 8;
+        double actualValue = calculator.cube(2);
+        assertEquals("This should evaluate to 8", expectedValue, actualValue, delta);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Test
+    public void test$cubeNegative() {
+        /**
+         * This method should cube a value (double) provided by the user.
+         */
+        double expectedValue = -8;
+        double actualValue = calculator.cube(-2);
+        assertEquals("This should evaluate to -8", expectedValue, actualValue, delta);
+    }
 
 }

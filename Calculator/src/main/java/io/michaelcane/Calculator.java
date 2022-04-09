@@ -147,6 +147,13 @@ public class Calculator {
         return Math.pow(Math.E, value1);
     }
 
+    public static double cube(double value1) {
+        /**
+         * This method should cube a value (double) provided by the user.
+         */
+        return value1 * value1 *value1;
+    }
+
     public static double inverseLogarithm(double value1) {
         /**
          * This will give the inverse for logarithms.
